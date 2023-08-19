@@ -3,9 +3,7 @@ package com.dimensa.crud.core.mappers;
 import com.dimensa.crud.core.mappers.interfaces.IGenericMapper;
 import com.dimensa.crud.dto.AddressDto;
 import com.dimensa.crud.entities.Address;
-import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
