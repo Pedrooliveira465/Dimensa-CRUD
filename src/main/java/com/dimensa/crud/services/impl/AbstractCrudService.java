@@ -27,6 +27,9 @@ public abstract class AbstractCrudService<D extends BaseDto, E extends BaseEntit
     }
 
     public Optional<D> findById(UUID id) {
+        if (!repository.existsById(id)) {
+            throw new EntityNotFoundException("Entity with id " + id + " not found");
+        }
         return repository.findById(id).map(mapper::toDto);
     }
 
