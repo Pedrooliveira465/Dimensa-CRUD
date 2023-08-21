@@ -1,11 +1,11 @@
-FROM maven:3.9.2-eclipse-temurin-17-alpine as builder
+FROM openjdk:17-jdk-slim
 
-COPY ./src src/
-COPY ./pom.xml pom.xml
+# Copiando o arquivo .jar para o container
+ARG JAR_FILE=target/*.jar
+COPY ${JAR_FILE} app.jar
 
-RUN mvn clean package -DskipTests
-
-FROM eclipse-temurin:17-jre-alpine
-COPY --from=builder target/*.jar app.jar
+# Expõe a porta que a aplicação Spring Boot irá rodar
 EXPOSE 8080
-CMD ["java","-jar","app.jar"]
+
+# Comando para rodar a aplicação Spring Boot
+ENTRYPOINT ["java", "-jar", "/app.jar"]
