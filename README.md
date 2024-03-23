@@ -3,7 +3,7 @@
 http://ec2-18-188-244-186.us-east-2.compute.amazonaws.com/swagger-ui/index.html#/
 
 <p>
-  Este projeto consiste em um aplicativo CRUD de contatos desenvolvido com o framework Spring e o Swagger para a documentação. Utilizando o banco de dados PostgreSQL para armazenamento persistente, 
+  Este projeto consiste em um aplicativo CRUD de contatos desenvolvido com Java, Springboot e o Swagger para a documentação. Utilizando o banco de dados PostgreSQL para armazenamento persistente,
   o aplicativo permite a criação, leitura, atualização e exclusão de informações de contatos. Além disso, o uso do Docker facilita a implantação e execução do aplicativo em diferentes ambientes.
   As requisições são feitas pela ferramenta Postman.
 </p>
