@@ -30,7 +30,7 @@ http://ec2-18-188-244-186.us-east-2.compute.amazonaws.com/swagger-ui/index.html#
 1. Levantar o serviço do PostgreSQL com o Docker Compose específico: docker-compose -f docker-compose.dev.yml up
 
 ## Acessar a documentação da API (Swagger)
-Após executar o projeto, a documentação da API estará disponível em: [http://localhost:8080/swagger-ui.html](http://ec2-18-188-244-186.us-east-2.compute.amazonaws.com/swagger-ui/index.html)
+Após executar o projeto, a documentação da API estará disponível em: (http://ec2-18-188-244-186.us-east-2.compute.amazonaws.com/swagger-ui/index.html)
 
 ![Captura de Tela (6)](https://github.com/Pedrooliveira465/Contact-CRUD/assets/92175893/6e470140-7ec5-40fc-bc7f-7b5a6e52af07)
 
