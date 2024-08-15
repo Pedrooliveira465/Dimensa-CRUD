@@ -13,6 +13,8 @@ http://ec2-18-188-244-186.us-east-2.compute.amazonaws.com/swagger-ui/index.html#
 
 ## Tecnologias
 - Java 17
+- JUnit
+- JPA
 - Docker
 - Docker Compose
 - PostgreSQL
